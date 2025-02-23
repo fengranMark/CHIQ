@@ -141,7 +141,7 @@ def merge_blocks_to_large_blocks():
 
 def get_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--local_rank', type=int, default=-1, metavar='N', help='Local process rank.')  # you need this argument in your scripts for DDP to work
+    parser.add_argument('--local-rank', type=int, default=-1, metavar='N', help='Local process rank.')  # you need this argument in your scripts for DDP to work
     parser.add_argument('--n_gpu', type=int, default=7, help='The number of used GPU.')
 
     parser.add_argument("--model_type", type=str, default="ance")
