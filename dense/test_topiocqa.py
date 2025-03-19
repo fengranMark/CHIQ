@@ -22,7 +22,7 @@ import copy
 import pickle
 import torch
 import numpy as np
-import pytrec_eval
+import pytrec_eval # pip install pytrec-eval-terrier
 from transformers import RobertaConfig, RobertaForSequenceClassification, RobertaTokenizer
 '''
 Test process, perform dense retrieval on collection (e.g., MS MARCO):
